@@ -1,4 +1,0 @@
-C:\Users\刘贻瀚\Desktop\AMS\Model\bin\Debug\Model.dll
-C:\Users\刘贻瀚\Desktop\AMS\Model\bin\Debug\Model.pdb
-C:\Users\刘贻瀚\Desktop\AMS\Model\obj\Debug\Model.dll
-C:\Users\刘贻瀚\Desktop\AMS\Model\obj\Debug\Model.pdb

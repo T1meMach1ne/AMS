@@ -1,9 +1,0 @@
-C:\Users\刘贻瀚\Desktop\AMS\BLL\bin\Debug\BLL.dll
-C:\Users\刘贻瀚\Desktop\AMS\BLL\bin\Debug\BLL.pdb
-C:\Users\刘贻瀚\Desktop\AMS\BLL\bin\Debug\DAL.dll
-C:\Users\刘贻瀚\Desktop\AMS\BLL\bin\Debug\Model.dll
-C:\Users\刘贻瀚\Desktop\AMS\BLL\bin\Debug\DAL.pdb
-C:\Users\刘贻瀚\Desktop\AMS\BLL\bin\Debug\Model.pdb
-C:\Users\刘贻瀚\Desktop\AMS\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
-C:\Users\刘贻瀚\Desktop\AMS\BLL\obj\Debug\BLL.dll
-C:\Users\刘贻瀚\Desktop\AMS\BLL\obj\Debug\BLL.pdb
