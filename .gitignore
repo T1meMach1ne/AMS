@@ -3,3 +3,25 @@
 ################################################################################
 
 /.vs/slnx.sqlite
+/AMS/.vs/AMS/v16/Server/sqlite3/storage.ide-wal
+/AMS/.vs/AMS/v16/Server/sqlite3/storage.ide-shm
+/AMS/.vs/AMS/v16/Server/sqlite3/storage.ide
+/AMS/.vs/AMS/v16/Server/sqlite3/db.lock
+/AMS/.vs/AMS/v16/.suo
+/AMS/.vs/AMS/config/applicationhost.config
+/AMS/Apply/obj/Release/Apply.csproj.CoreCompileInputs.cache
+/AMS/Apply/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+/AMS/Apply/obj/Debug/Apply.dll
+/AMS/Apply/obj/Debug/Apply.csprojResolveAssemblyReference.cache
+/AMS/Apply/obj/Debug/Apply.csprojAssemblyReference.cache
+/AMS/Apply/obj/Debug/Apply.csproj.CoreCompileInputs.cache
+/AMS/Apply/bin/Model.dll
+/AMS/Apply/bin/DAL.dll
+/AMS/Apply/bin/BLL.dll
+/AMS/Apply/bin/Apply.dll
+*
+/AMS/Apply/*
+/AMS/BLL/*
+/AMS/DAL/*
+/AMS/Model/obj
+/AMS/Model/bin
