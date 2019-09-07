@@ -1,1 +1,5 @@
 /.vs
+/AMS/BLL/*
+/AMS/DAL/*
+/AMS/Model/*
+/AMS/UIL/*
