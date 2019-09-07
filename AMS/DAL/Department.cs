@@ -3,95 +3,81 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Data;
-using System.Data.SqlClient;
 
 namespace DAL
 {
     public class Department
     {
         /// <summary>
-        /// 查询部门信息
+        /// 获取主管信息
         /// </summary>
         /// <returns></returns>
-        public static DataTable SelectDept(string where)
+        public static DataTable GetAllManager()
         {
-            string sql = " select * from Departments " + where;
-            return DBHelper.ExecuteSelect(sql);;
-        }
-        /// <summary>
-        /// 绑定部门信息表
-        /// </summary>
-        /// <returns></returns>
-        public static DataTable BindDept(string where,string DeptName="")
-        {
-            string sql = " select * from Departments a left join UserInfos b on a.Manager=b.UserID where a.DeptName like '%" + DeptName + "%'" + where;
+            string sql = "select * from dbo.UserInfo where UserType=1";
             return DBHelper.ExecuteSelect(sql);
         }
         /// <summary>
-        /// 获取单个部门行
+        /// 查询部门主管对应信息
         /// </summary>
-        /// <param name="DeptID"></param>
+        /// <param name="where"></param>
         /// <returns></returns>
-        public static Model.Department GetSingleDept(int DeptID)
+        public static DataTable GetDepartmentInfo(string where)
         {
-            string sql = " select * from Departments where DeptID=@DeptID";
-            SqlParameter[] para = { 
-                                    new SqlParameter("DeptID",DeptID)
-                                  };
-            DataTable dt = DBHelper.ExecuteSelect(sql, para);
-            DataRow dr = dt.Rows[0];
-            Model.Department d = new Model.Department();
-            d.DeptID = (int)dr["DeptID"];
-            d.DeptName = (string)dr["DeptName"];
-            d.Manager = (string)dr["Manager"];
-            d.DeptInfo = (string)dr["DeptInfo"];
-            return d;
+            string sql = " select * from Department left join UserInfo on Department.ManagerID=UserInfo.UserID where 1=1" + where;
+            return DBHelper.ExecuteSelect(sql); ;
         }
         /// <summary>
-        /// 新增方法
+        /// 判断部门下有无员工信息
         /// </summary>
-        /// <param name="b"></param>
+        /// <param name="where"></param>
         /// <returns></returns>
-        public static bool InsertDepartment(Model.Department d)
+        public static bool HaveUserInfo(int deptID)
         {
-            //参数化的SQL语句
-            string sql = "insert into Departments values (@DeptName,@Manager, @DeptInfo)";
-            SqlParameter[] para = { 
-                                   new SqlParameter("DeptName",d.DeptName),
-                                   new SqlParameter("Manager",d.Manager),
-                                   new SqlParameter("DeptInfo",d.DeptInfo)                                 
-                                };
-            return DBHelper.ExecuteNonQuery(sql, para);
+            string sql = "select * from UserInfo where DeptID='" + deptID + "'";
+            DataTable dt = DBHelper.ExecuteSelect(sql);
+            bool b;
+            if (dt.Rows.Count > 0)
+            {
+                //表示部门有用户
+                b = true;
+            }
+            else
+            {
+                //表示部门没有用户
+                b = false;
+            }
+            return b;
         }
         /// <summary>
-        /// 修改方法
+        /// 新增部门信息
         /// </summary>
-        /// <param name="b"></param>
+        /// <param name="model"></param>
         /// <returns></returns>
-        public static bool UpdateDepartment(Model.Department d)
+        public static bool AddDepartmentInfo(Model.Department model)
         {
-            //参数化的SQL语句
-            string sql = " update Departments set DeptName=@DeptName,Manager=@Manager,DeptInfo=@DeptInfo where DeptID=@DeptID";
-            SqlParameter[] para = { 
-                                   new SqlParameter("DeptID",d.DeptID),
-                                   new SqlParameter("DeptName",d.DeptName),
-                                   new SqlParameter("Manager",d.Manager),
-                                   new SqlParameter("DeptInfo",d.DeptInfo)                                 
-                                };
-            return DBHelper.ExecuteNonQuery(sql, para);
+            string sql = "insert into Department values ('" + model.DeptName + "','" + model.ManagerID + "','" + model.DeptInfo + "')";
+            return DBHelper.ExecuteNonQuery(sql, null);
         }
         /// <summary>
-        /// 删除方法
+        /// 修改部门信息
         /// </summary>
-        /// <param name="b"></param>
+        /// <param name="model"></param>
         /// <returns></returns>
-        public static bool DeleteDepartment(Model.Department d)
+        public static bool UpdateDepartmentInfo(Model.Department model)
         {
-            string sql = " delete from Departments where DeptID=@DeptID";
-            SqlParameter[] para ={
-                                 new SqlParameter("DeptID",d.DeptID),
-                                 };
-            return DBHelper.ExecuteNonQuery(sql, para);
+            string sql = "update Department set DeptName='" + model.DeptName + "',ManagerID='" + model.ManagerID + "',DeptInfo='" + model.DeptInfo + "'  where DeptID ='" + model.DeptID + "'";
+            return DBHelper.ExecuteNonQuery(sql, null); ;
+        }
+        /// <summary>
+        /// 删除部门信息
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns></returns>
+        public static bool DelDepartmentInfo(Model.Department model)
+        {
+            string sql = " delete Department where DeptID ='" + model.DeptID + "'";
+            return DBHelper.ExecuteNonQuery(sql, null);
         }
     }
 }

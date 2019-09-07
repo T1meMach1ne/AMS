@@ -1,0 +1,131 @@
+E:\I1428_项目一：2、项目框架\AMS\Model\bin\Debug\Model.dll
+E:\I1428_项目一：2、项目框架\AMS\Model\bin\Debug\Model.pdb
+E:\I1428_项目一：2、项目框架\AMS\Model\obj\Debug\ResolveAssemblyReference.cache
+E:\I1428_项目一：2、项目框架\AMS\Model\obj\Debug\Model.dll
+E:\I1428_项目一：2、项目框架\AMS\Model\obj\Debug\Model.pdb
+D:\I1428_项目一：2、项目框架\AMS\Model\bin\Debug\Model.dll
+D:\I1428_项目一：2、项目框架\AMS\Model\bin\Debug\Model.pdb
+D:\I1428_项目一：2、项目框架\AMS\Model\obj\Debug\ResolveAssemblyReference.cache
+D:\I1428_项目一：2、项目框架\AMS\Model\obj\Debug\Model.dll
+D:\I1428_项目一：2、项目框架\AMS\Model\obj\Debug\Model.pdb
+E:\项目一：1、资料\AMS\Model\bin\Debug\Model.dll
+E:\项目一：1、资料\AMS\Model\bin\Debug\Model.pdb
+E:\项目一：1、资料\AMS\Model\obj\Debug\ResolveAssemblyReference.cache
+E:\项目一：1、资料\AMS\Model\obj\Debug\Model.dll
+E:\项目一：1、资料\AMS\Model\obj\Debug\Model.pdb
+H:\项目一：1、资料\AMS\Model\bin\Debug\Model.dll
+H:\项目一：1、资料\AMS\Model\bin\Debug\Model.pdb
+H:\项目一：1、资料\AMS\Model\obj\Debug\ResolveAssemblyReference.cache
+H:\项目一：1、资料\AMS\Model\obj\Debug\Model.dll
+H:\项目一：1、资料\AMS\Model\obj\Debug\Model.pdb
+D:\项目一：1、资料\AMS\Model\bin\Debug\Model.dll
+D:\项目一：1、资料\AMS\Model\bin\Debug\Model.pdb
+D:\项目一：1、资料\AMS\Model\obj\Debug\Model.dll
+D:\项目一：1、资料\AMS\Model\obj\Debug\Model.pdb
+H:\刘贻瀚\AMS\Model\bin\Debug\Model.dll
+H:\刘贻瀚\AMS\Model\bin\Debug\Model.pdb
+H:\刘贻瀚\AMS\Model\obj\Debug\Model.dll
+H:\刘贻瀚\AMS\Model\obj\Debug\Model.pdb
+C:\Users\Administrator.QL75ALGD684DQ6X\Desktop\新建文件夹\刘贻瀚\AMS\Model\bin\Debug\Model.dll
+C:\Users\Administrator.QL75ALGD684DQ6X\Desktop\新建文件夹\刘贻瀚\AMS\Model\bin\Debug\Model.pdb
+C:\Users\Administrator.QL75ALGD684DQ6X\Desktop\新建文件夹\刘贻瀚\AMS\Model\obj\Debug\Model.dll
+C:\Users\Administrator.QL75ALGD684DQ6X\Desktop\新建文件夹\刘贻瀚\AMS\Model\obj\Debug\Model.pdb
+E:\刘贻瀚\刘贻瀚\AMS\Model\bin\Debug\Model.dll
+E:\刘贻瀚\刘贻瀚\AMS\Model\bin\Debug\Model.pdb
+E:\刘贻瀚\刘贻瀚\AMS\Model\obj\Debug\ResolveAssemblyReference.cache
+E:\刘贻瀚\刘贻瀚\AMS\Model\obj\Debug\Model.dll
+E:\刘贻瀚\刘贻瀚\AMS\Model\obj\Debug\Model.pdb
+C:\Documents and Settings\Administrator\桌面\肖艳丽\刘贻瀚\AMS\Model\bin\Debug\Model.dll
+C:\Documents and Settings\Administrator\桌面\肖艳丽\刘贻瀚\AMS\Model\bin\Debug\Model.pdb
+C:\Documents and Settings\Administrator\桌面\肖艳丽\刘贻瀚\AMS\Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\肖艳丽\刘贻瀚\AMS\Model\obj\Debug\Model.dll
+C:\Documents and Settings\Administrator\桌面\肖艳丽\刘贻瀚\AMS\Model\obj\Debug\Model.pdb
+C:\Users\Administrator.QL75ALGD684DQ6X\Desktop\刘贻瀚\刘贻瀚\AMS\Model\bin\Debug\Model.dll
+C:\Users\Administrator.QL75ALGD684DQ6X\Desktop\刘贻瀚\刘贻瀚\AMS\Model\bin\Debug\Model.pdb
+C:\Users\Administrator.QL75ALGD684DQ6X\Desktop\刘贻瀚\刘贻瀚\AMS\Model\obj\Debug\Model.dll
+C:\Users\Administrator.QL75ALGD684DQ6X\Desktop\刘贻瀚\刘贻瀚\AMS\Model\obj\Debug\Model.pdb
+D:\刘贻瀚\刘贻瀚\AMS\Model\bin\Debug\Model.dll
+D:\刘贻瀚\刘贻瀚\AMS\Model\bin\Debug\Model.pdb
+D:\刘贻瀚\刘贻瀚\AMS\Model\obj\Debug\Model.dll
+D:\刘贻瀚\刘贻瀚\AMS\Model\obj\Debug\Model.pdb
+C:\Users\胡言\Desktop\刘贻瀚\刘贻瀚\刘贻瀚\AMS\Model\bin\Debug\Model.dll
+C:\Users\胡言\Desktop\刘贻瀚\刘贻瀚\刘贻瀚\AMS\Model\bin\Debug\Model.pdb
+C:\Users\胡言\Desktop\刘贻瀚\刘贻瀚\刘贻瀚\AMS\Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\胡言\Desktop\刘贻瀚\刘贻瀚\刘贻瀚\AMS\Model\obj\Debug\Model.dll
+C:\Users\胡言\Desktop\刘贻瀚\刘贻瀚\刘贻瀚\AMS\Model\obj\Debug\Model.pdb
+C:\Users\刘贻瀚\Desktop\刘贻瀚\刘贻瀚\AMS\Model\bin\Debug\Model.dll
+C:\Users\刘贻瀚\Desktop\刘贻瀚\刘贻瀚\AMS\Model\bin\Debug\Model.pdb
+C:\Users\刘贻瀚\Desktop\刘贻瀚\刘贻瀚\AMS\Model\obj\Debug\Model.dll
+C:\Users\刘贻瀚\Desktop\刘贻瀚\刘贻瀚\AMS\Model\obj\Debug\Model.pdb
+C:\Documents and Settings\Administrator\桌面\刘贻瀚\刘贻瀚\AMS\Model\bin\Debug\Model.dll
+C:\Documents and Settings\Administrator\桌面\刘贻瀚\刘贻瀚\AMS\Model\bin\Debug\Model.pdb
+C:\Documents and Settings\Administrator\桌面\刘贻瀚\刘贻瀚\AMS\Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\刘贻瀚\刘贻瀚\AMS\Model\obj\Debug\Model.dll
+C:\Documents and Settings\Administrator\桌面\刘贻瀚\刘贻瀚\AMS\Model\obj\Debug\Model.pdb
+H:\刘贻瀚\刘贻瀚\AMS\Model\bin\Debug\Model.dll
+H:\刘贻瀚\刘贻瀚\AMS\Model\bin\Debug\Model.pdb
+H:\刘贻瀚\刘贻瀚\AMS\Model\obj\Debug\ResolveAssemblyReference.cache
+H:\刘贻瀚\刘贻瀚\AMS\Model\obj\Debug\Model.dll
+H:\刘贻瀚\刘贻瀚\AMS\Model\obj\Debug\Model.pdb
+C:\Documents and Settings\Administrator\桌面\刘贻瀚\AMS\Model\bin\Debug\Model.dll
+C:\Documents and Settings\Administrator\桌面\刘贻瀚\AMS\Model\bin\Debug\Model.pdb
+C:\Documents and Settings\Administrator\桌面\刘贻瀚\AMS\Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\刘贻瀚\AMS\Model\obj\Debug\Model.dll
+C:\Documents and Settings\Administrator\桌面\刘贻瀚\AMS\Model\obj\Debug\Model.pdb
+C:\Users\胡言\Desktop\刘贻瀚\AMS\Model\bin\Debug\Model.dll
+C:\Users\胡言\Desktop\刘贻瀚\AMS\Model\bin\Debug\Model.pdb
+C:\Users\胡言\Desktop\刘贻瀚\AMS\Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\胡言\Desktop\刘贻瀚\AMS\Model\obj\Debug\Model.dll
+C:\Users\胡言\Desktop\刘贻瀚\AMS\Model\obj\Debug\Model.pdb
+C:\Documents and Settings\Administrator\桌面\项目\AMS\Model\bin\Debug\Model.dll
+C:\Documents and Settings\Administrator\桌面\项目\AMS\Model\bin\Debug\Model.pdb
+C:\Documents and Settings\Administrator\桌面\项目\AMS\Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\项目\AMS\Model\obj\Debug\Model.dll
+C:\Documents and Settings\Administrator\桌面\项目\AMS\Model\obj\Debug\Model.pdb
+C:\Users\胡言\Desktop\项目\项目\AMS\Model\bin\Debug\Model.dll
+C:\Users\胡言\Desktop\项目\项目\AMS\Model\bin\Debug\Model.pdb
+C:\Users\胡言\Desktop\项目\项目\AMS\Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\胡言\Desktop\项目\项目\AMS\Model\obj\Debug\Model.dll
+C:\Users\胡言\Desktop\项目\项目\AMS\Model\obj\Debug\Model.pdb
+C:\Users\刘贻瀚\Desktop\项目\项目\AMS\Model\bin\Debug\Model.dll
+C:\Users\刘贻瀚\Desktop\项目\项目\AMS\Model\bin\Debug\Model.pdb
+C:\Users\刘贻瀚\Desktop\项目\项目\AMS\Model\obj\Debug\Model.dll
+C:\Users\刘贻瀚\Desktop\项目\项目\AMS\Model\obj\Debug\Model.pdb
+C:\Users\刘贻瀚\Desktop\考勤项目\项目\AMS\Model\bin\Debug\Model.dll
+C:\Users\刘贻瀚\Desktop\考勤项目\项目\AMS\Model\bin\Debug\Model.pdb
+C:\Users\刘贻瀚\Desktop\考勤项目\项目\AMS\Model\obj\Debug\Model.dll
+C:\Users\刘贻瀚\Desktop\考勤项目\项目\AMS\Model\obj\Debug\Model.pdb
+H:\考勤项目\项目\AMS\Model\bin\Debug\Model.dll
+H:\考勤项目\项目\AMS\Model\bin\Debug\Model.pdb
+H:\考勤项目\项目\AMS\Model\obj\Debug\ResolveAssemblyReference.cache
+H:\考勤项目\项目\AMS\Model\obj\Debug\Model.dll
+H:\考勤项目\项目\AMS\Model\obj\Debug\Model.pdb
+C:\Users\Administrator.QL75ALGD684DQ6X\Desktop\考勤项目\项目\AMS\Model\bin\Debug\Model.dll
+C:\Users\Administrator.QL75ALGD684DQ6X\Desktop\考勤项目\项目\AMS\Model\bin\Debug\Model.pdb
+C:\Users\Administrator.QL75ALGD684DQ6X\Desktop\考勤项目\项目\AMS\Model\obj\Debug\Model.dll
+C:\Users\Administrator.QL75ALGD684DQ6X\Desktop\考勤项目\项目\AMS\Model\obj\Debug\Model.pdb
+C:\Documents and Settings\Administrator\桌面\考勤项目\项目\AMS\Model\bin\Debug\Model.dll
+C:\Documents and Settings\Administrator\桌面\考勤项目\项目\AMS\Model\bin\Debug\Model.pdb
+C:\Documents and Settings\Administrator\桌面\考勤项目\项目\AMS\Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\考勤项目\项目\AMS\Model\obj\Debug\Model.dll
+C:\Documents and Settings\Administrator\桌面\考勤项目\项目\AMS\Model\obj\Debug\Model.pdb
+C:\Users\Administrator.QL75ALGD684DQ6X\Desktop\考勤项目\项目\AMS\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\考勤项目-刘贻瀚\项目\AMS\Model\bin\Debug\Model.dll
+C:\Documents and Settings\Administrator\桌面\考勤项目-刘贻瀚\项目\AMS\Model\bin\Debug\Model.pdb
+C:\Documents and Settings\Administrator\桌面\考勤项目-刘贻瀚\项目\AMS\Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\考勤项目-刘贻瀚\项目\AMS\Model\obj\Debug\Model.dll
+C:\Documents and Settings\Administrator\桌面\考勤项目-刘贻瀚\项目\AMS\Model\obj\Debug\Model.pdb
+C:\Users\Administrator.QL75ALGD684DQ6X\Desktop\考勤项目-刘贻瀚\项目\AMS\Model\bin\Debug\Model.dll
+C:\Users\Administrator.QL75ALGD684DQ6X\Desktop\考勤项目-刘贻瀚\项目\AMS\Model\bin\Debug\Model.pdb
+C:\Users\Administrator.QL75ALGD684DQ6X\Desktop\考勤项目-刘贻瀚\项目\AMS\Model\obj\Debug\Model.dll
+C:\Users\Administrator.QL75ALGD684DQ6X\Desktop\考勤项目-刘贻瀚\项目\AMS\Model\obj\Debug\Model.pdb
+E:\考勤项目-刘贻瀚\项目\AMS\Model\bin\Debug\Model.dll
+E:\考勤项目-刘贻瀚\项目\AMS\Model\bin\Debug\Model.pdb
+E:\考勤项目-刘贻瀚\项目\AMS\Model\obj\Debug\ResolveAssemblyReference.cache
+E:\考勤项目-刘贻瀚\项目\AMS\Model\obj\Debug\Model.dll
+E:\考勤项目-刘贻瀚\项目\AMS\Model\obj\Debug\Model.pdb
+E:\project\项目\考勤项目-刘贻瀚\项目\AMS\Model\bin\Debug\Model.dll
+E:\project\项目\考勤项目-刘贻瀚\项目\AMS\Model\bin\Debug\Model.pdb
+E:\project\项目\考勤项目-刘贻瀚\项目\AMS\Model\obj\Debug\Model.dll
+E:\project\项目\考勤项目-刘贻瀚\项目\AMS\Model\obj\Debug\Model.pdb
+E:\project\项目\考勤项目-刘贻瀚\项目\AMS\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache

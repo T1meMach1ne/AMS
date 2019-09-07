@@ -10,7 +10,7 @@ namespace DAL
     public class DBHelper
     {
         //1、获取数据库连接字符串
-        public static string connString = ConfigurationManager.ConnectionStrings["AMS_newConnectionString"].ConnectionString;
+        public static string connString = ConfigurationManager.ConnectionStrings["AttendanceConnectionString"].ConnectionString;
         //2、专门用来执行增、删、改的方法
         /// <summary>
         /// 此方法专门用来执行增、删、改的sql语句;如果执行成功，则返回true;如果执行失败，则返回false;
@@ -160,6 +160,24 @@ namespace DAL
             }
             RecordCount = (int)sp[5].Value;
             return dt;
+        }
+
+        /// <summary>
+        /// 执行排序的方法
+        /// </summary>
+        /// <param name="viewS"></param>
+        /// <returns></returns>
+        public static DataTable SortReturnValue(string viewS)
+        {
+            string sql = string.Format("select * from UsersInfo order by {0}", viewS);
+            SqlConnection conn = new SqlConnection(connString);
+            conn.Open();
+            SqlCommand cmd = new SqlCommand(sql, conn);
+            SqlDataAdapter da = new SqlDataAdapter();
+            da.SelectCommand = cmd;
+            DataSet ds = new DataSet();
+            da.Fill(ds);
+            return ds.Tables[0];
         }
     }
 }

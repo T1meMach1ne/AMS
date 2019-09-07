@@ -9,7 +9,7 @@ namespace Model
     {
         public int DeptID { get; set; }
         public string DeptName { get; set; }
-        public string Manager { get; set; }
+        public string ManagerID { get; set; }
         public string DeptInfo { get; set; }
     }
 }

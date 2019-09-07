@@ -1,0 +1,116 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="UIL.Site" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+    <link href="css/common.css" rel="stylesheet" type="text/css" />   
+    <script>
+        function UpdateUser() {
+            $("#dlg1").dialog("setTitle", "修改信息").dialog("open");
+            $("#frm2").attr("src", "PersonalInfo.aspx");
+        }
+   </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="divTop">
+        <img alt="" src="image/main/logo.png" style="float: left;" />
+        <img alt="" src="image/main/join.gif" style="float: left; position: relative; top: 49px;" />
+        <div class="div-menu">
+            
+            <%
+                Model.UserInfo u = (Model.UserInfo)Session["User"];
+                if (u.UserType == 2)
+                {        
+            %>
+           
+            <a target="_self" href="UserList.aspx">
+           
+                <div>
+                    用户管理</div>
+            </a>
+          
+            <a target="_self" href="DepartmentList.aspx">
+            
+                <div>
+                    部门管理</div>
+            </a>
+         
+            <a target="_self" href="AttendanceSetting.aspx">
+            
+                <div>
+                    考勤设置</div>
+            </a>
+            <%
+                }
+                else if (u.UserType == 1)
+                {                      
+            %> 
+                    
+            <a target="_self" href="AttendanceManage.aspx">
+          
+                <div>
+                    考勤管理</div>
+            </a>
+               
+            <a target="_self" href="AskForLeaveApproval.aspx">
+           
+                <div>
+                    请假审批</div>
+            </a>
+            <%
+            }
+                else
+                {
+                    
+            %>
+           
+            <a target="_self" href="MyAttendance.aspx">
+           
+                <div>
+                    我的考勤</div>
+            </a>
+             
+            <a target="_self" href="AskForLeave.aspx?UserId=<%=(u.UserID) %>">
+                <div>
+                    请假申请</div>
+            </a>
+            <%
+            } %>
+       
+        </div>
+        <div class="divLnk">
+            <img alt="" src="image/main/help.png" width="16px" height="16px" />
+            <a href="#" onclick="UpdateUser();">个人信息</a>
+            <img alt="" src="image/main/off.jpg" width="16px" height="16px" />
+           <asp:LinkButton ID="lbExit" runat="server" OnClick="lbExit_Click" OnClientClick="return confirm('你确定要退出系统吗？');">退出</asp:LinkButton>
+        </div>
+    </div>
+    <div class="divCurrent">  
+    </div>
+    <div class="main">
+        <div class="mainTitle">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <hr />
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+     <div class="divBottom">
+        <span>当前用户：<asp:Label ID="lblUserName" runat="server" Text=""></asp:Label></span> <span style="margin-left: 20px;">用户类型：<asp:Label ID="lblUserType" runat="server" Text=""></asp:Label></span> <span style="margin-right: 5px;
+            float: right;">协同办公管理平台 —— 考勤子系统</span>
+    </div>
+    <div id="dlg1" class="easyui-dialog" title="My Dialog" style="width:400px;height:250px;"   
+        data-options="iconCls:'icon-save',resizable:true,modal:true,closed:true">
+        <iframe id="frm2" width='99%' height='99%' frameborder='0'></iframe>
+    </div>
+    </form>
+</body>
+</html>

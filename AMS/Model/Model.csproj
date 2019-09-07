@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{4EE39F4C-50FA-48EF-AE7E-D042B48C9D6F}</ProjectGuid>
+    <ProjectGuid>{34CC2E76-3045-4C02-8814-7F820299D0AC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Model</RootNamespace>
@@ -40,15 +40,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Apply.cs" />
-    <Compile Include="ApplyFlow.cs" />
+    <Compile Include="Approve.cs" />
+    <Compile Include="AttendanceSetting.cs" />
     <Compile Include="Department.cs" />
-    <Compile Include="IPAddressApply.cs" />
-    <Compile Include="OfficeEmailApply.cs" />
-    <Compile Include="OperateLog.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StorageSpaceApply.cs" />
     <Compile Include="UserInfo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

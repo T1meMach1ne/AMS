@@ -9,57 +9,57 @@ namespace BLL
     public class Department
     {
         /// <summary>
-        /// 查询部门信息
+        /// 获取主管信息
+        /// </summary>
+        /// <returns></returns>
+        public static DataTable GetAllManager()
+        {
+            return DAL.Department.GetAllManager();
+        }
+       /// <summary>
+       /// 查询部门对应员工信息
+       /// </summary>
+       /// <param name="where"></param>
+       /// <returns></returns>
+        public static DataTable GetDepartmentInfo(string where)
+        {
+            return DAL.Department.GetDepartmentInfo(where);
+        }
+        /// <summary>
+        /// 判断部门下有无员工信息
         /// </summary>
         /// <param name="where"></param>
         /// <returns></returns>
-        public static DataTable SelectDept(string where)
+        public static bool HaveUserInfo(int deptID)
         {
-            return DAL.Department.SelectDept(where);
+            return DAL.Department.HaveUserInfo(deptID);
         }
         /// <summary>
-        /// 绑定部门信息表
+        /// 新增部门信息
         /// </summary>
+        /// <param name="model"></param>
         /// <returns></returns>
-        public static DataTable BindDept(string where,string DeptName)
+        public static bool AddDepartmentInfo(Model.Department model)
         {
-            return DAL.Department.BindDept(where,DeptName);
+            return DAL.Department.AddDepartmentInfo(model);
         }
         /// <summary>
-        /// 获取单个部门对象
+        /// 修改部门信息
         /// </summary>
-        /// <param name="DeptID"></param>
+        /// <param name="model"></param>
         /// <returns></returns>
-        public static Model.Department GetSingleDept(int DeptID)
+        public static bool UpdateDepartmentInfo(Model.Department model)
         {
-            return DAL.Department.GetSingleDept(DeptID);
+            return DAL.Department.UpdateDepartmentInfo(model);
         }
         /// <summary>
-        /// 新增方法
+        /// 删除部门信息
         /// </summary>
-        /// <param name="b"></param>
+        /// <param name="model"></param>
         /// <returns></returns>
-        public static bool InsertDepartment(Model.Department d)
+        public static bool DelDepartmentInfo(Model.Department model)
         {
-            return DAL.Department.InsertDepartment(d);
-        }
-        /// <summary>
-        /// 新增方法
-        /// </summary>
-        /// <param name="b"></param>
-        /// <returns></returns>
-        public static bool UpdateDepartment(Model.Department d)
-        {
-            return DAL.Department.UpdateDepartment(d);
-        }
-        /// <summary>
-        /// 删除方法
-        /// </summary>
-        /// <param name="b"></param>
-        /// <returns></returns>
-        public static bool DeleteDepartment(Model.Department d)
-        {
-            return DAL.Department.DeleteDepartment(d);
+            return DAL.Department.DelDepartmentInfo(model);
         }
     }
 }
